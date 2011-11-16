@@ -1,3 +1,5 @@
+package CatalystX::TraitFor::Dispatcher::ExactMatch; # for CPAN
+
 use 5.010;
 use strict;
 use MooseX::Declare;
@@ -5,7 +7,7 @@ use MooseX::Declare;
 BEGIN
 {
 	$CatalystX::TraitFor::Dispatcher::ExactMatch::AUTHORITY = 'cpan:TOBYINK';
-	$CatalystX::TraitFor::Dispatcher::ExactMatch::VERSION   = '0.001';
+	$CatalystX::TraitFor::Dispatcher::ExactMatch::VERSION   = '0.002';
 }
 
 role CatalystX::TraitFor::Dispatcher::ExactMatch
