@@ -12,7 +12,7 @@ BEGIN
 	$CatalystX::TraitFor::Dispatcher::ExactMatch::VERSION   = '0.003';
 }
 
-qw( dispatch_types );
+requires qw( dispatch_types );
 
 around prepare_action => sub
 {
