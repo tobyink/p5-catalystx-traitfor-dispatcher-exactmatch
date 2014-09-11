@@ -9,7 +9,7 @@ use Moose::Role;
 BEGIN
 {
 	$CatalystX::TraitFor::Dispatcher::ExactMatch::AUTHORITY = 'cpan:TOBYINK';
-	$CatalystX::TraitFor::Dispatcher::ExactMatch::VERSION   = '0.002';
+	$CatalystX::TraitFor::Dispatcher::ExactMatch::VERSION   = '0.003';
 }
 
 qw( dispatch_types );
