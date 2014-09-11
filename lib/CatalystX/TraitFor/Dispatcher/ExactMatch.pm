@@ -12,6 +12,8 @@ BEGIN
 	$CatalystX::TraitFor::Dispatcher::ExactMatch::VERSION   = '0.002';
 }
 
+qw( dispatch_types );
+
 around prepare_action => sub
 {
 	my $next = shift;
